@@ -1,0 +1,25 @@
+@import lib.sass
+  
+body
+  font: 15px/1.5 'lucida grande', arial, helvetica, sans-serif
+  color: #444
+  
+a
+  color: #888
+  &:hover
+    color: #000
+
+#wrapper
+  @include container()
+  
+#branding
+  @include grid(12)
+  
+#left
+  @include grid(3)
+  
+#main
+  @include grid(9)
+  
+#footer
+  @include grid(12)

@@ -1,0 +1,36 @@
+body {
+  font: 15px/1.5 "lucida grande", arial, helvetica, sans-serif;
+  color: #444444; }
+
+a {
+  color: #888888; }
+  a:hover {
+    color: black; }
+
+#wrapper {
+  width: 960px;
+  margin: 0 auto; }
+
+#branding {
+  width: 940px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+#left {
+  width: 220px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+#main {
+  width: 700px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+#footer {
+  width: 940px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px; }

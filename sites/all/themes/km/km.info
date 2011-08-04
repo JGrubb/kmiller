@@ -1,0 +1,7 @@
+name = "KM"
+description = "Koreen's theme."
+base theme = "tao"
+core = "6.x"
+engine = "phptemplate"
+
+stylesheets[all][] = "style.css"
