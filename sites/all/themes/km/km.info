@@ -4,4 +4,4 @@ base theme = "tao"
 core = "6.x"
 engine = "phptemplate"
 
-stylesheets[all][] = "style.css"
+stylesheets[screen][] = "style.css"

@@ -1,8 +1,8 @@
-// define width and number of columns
+// define width and number of columns and gutters
 
 $width: 960px
-$grid_cols: 12
-
+$grid_cols: 16
+$gutters: 15px
 // Lib
 
 @mixin container()
@@ -10,10 +10,16 @@ $grid_cols: 12
   margin: 0 auto
 
 @mixin grid($cols)
-  width: (($width / $grid_cols) * $cols) - 20px
+  width: (($width / $grid_cols) * $cols) - ($gutters * 2)
   float: left
-  margin-left: 10px
-  margin-right: 10px
+  margin-left: $gutters
+  margin-right: $gutters
+  
+@mixin alpha()
+  margin-left: 0
+  
+@mixin omega()
+  margin-right: 0
   
 @mixin radius($a)
   -moz-border-radius: $a
